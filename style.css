@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box ;
+  
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #1e1e1e;
+    line-height: 1.6 ;
+    color: white;
+}
+
+.main-container{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 300px 1fr;
+    gap:40px;
+    padding-top:35px ;
+    margin: auto;
+    border-radius: 10%;
+}
+
+.sidebar .profile img {
+    border-radius: 60%;
+}
+
+.sidebar{
+    height: 80vh;
+    background-color: #2a2a2a;
+    padding-top: 10px;
+}
+
+.main-content{
+    /* height: 80vh; */
+    background-color: #2a2a2a;
+}
+
+/* sidebar */
+
+/* profile */
+
+.profile {
+     text-align: center;
+}
+
+.profile img{
+    height: 100px;
+    background-size: cover;
+
+}
+
+.profile h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.profile p{
+    color: #ffbf00;
+    display: inline-block;
+    background-color: #1e1e1e;
+    border: 1px solid #3a3a3a;
+}
+
+/* contact */
+
+.contact{
+    padding-left: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #3a3a3a;
+    padding-top: 20px; 
+}
+
+.label{
+    color: #c0c0c0;
+    font-size: 0.8rem;
+}
+
+.value{
+    font-size:0.9rem;
+    font-weight: 600;
+}
+
+/* social  */
+
+.social{
+    padding-left: 20px;
+    margin-top: 30px;
+    border-top: 1px solid #3a3a3a;
+    padding-top: 20px;
+    text-align: center; 
+}
+
+.social img{
+   height: 25px;
+   width: 25px;
+   text-align: center;
+   margin-left: 10px;
+   filter: grayscale(1) invert(0.7) ;
+   transition:filter o.3s ease ;
+}
+
+.social img:hover{
+    filter: grayscale(0) invert(0) ;
+}
+
+/* main-content */
+
+/* navigation here */
+
+nav a{
+    text-decoration: none;
+    transition:color o.3s ease ;
+    padding-right: 20px;
+    font-weight: 500;
+    color: #a0a0a0;    
+}
+
+nav{
+   text-align:end;
+   padding-top: 15px;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #3a3a3a;
+}
+
+.active, nav a:hover{
+     color: #ffbf00;
+}
+
+/* About me */
+
+#about{
+    border-bottom: 1px solid #3a3a3a;
+    padding-top:20px ;
+    padding-left: 20px;
+    gap: 10px;  
+    padding-bottom: 20px; 
+}
+
+.liner{
+    height: 4px;
+    width: 60px;
+    background-color: #ffbf00;
+    margin-bottom: 15px;
+    
+}
+
+.heading{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.contant{
+    text-align:justify;
+    color: #c0c0c0;
+}
+
+/*  Skills section*/
+#skill{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    gap:10px;  
+}
+
+.item{
+    width: 100px;
+    padding: 20px;
+    border: 2px solid #3a3a3a;
+    background-color: #1e1e1e;
+    text-align: center;
+    
+}
+
+.item img{
+    height: 48px;
+    width: 48px;
+    transition:color o.3s ease ;
+    filter: brightness(0) saturate(100%) invert(74%) sepia(70%) saturate(2088%) hue-rotate(0deg) brightness(104%) contrast(102%) ;
+}
+
+.item h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.item:hover{
+    transition: steps(1,1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Education section */
+
+#education{
+    padding-left: 20px;
+    border-top: 1px solid #3a3a3a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.clg-name , .year , .study {
+    font-size: 1rem;
+    color: #a0a0a0;
+}
+
+.edu_details{
+    position: relative;
+    padding-left: 20px;
+}
+.degree{
+    font-size: 1.2rem;
+    font-weight: 700;
+    
+}
+
+.dot{
+    height: 15px;
+    width: 15px;
+    color:#ffbf00;
+    border-radius: 50%;
+    border: 4px solid #ffbf00;
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    z-index: 5;
+}
+
+.line{
+    color:#a0a0a0 ;
+    width: 1px;
+    position: absolute;
+    top: 5px;
+    bottom: 0px;
+    left: 6px;
+    border: 1px solid #3a3a3a;
+}
+
+/* project */
+
+#project{
+    padding-left: 20px;
+    border-top: 1px solid #3a3a3a;
+    padding-top: 10px;
+}
+
