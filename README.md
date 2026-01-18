@@ -20,4 +20,4 @@ structure while learning how different CSS rules affect alignment, spacing, and 
 Learning project focused on improving layout and structure. More enhancements may be added in the future.
 
 ## Live Demo
-https://priyanshpanjabi0922.github.io/structured-portfolio/
+https://priyanshpanjabi0922.github.io/personal-portfolio/
