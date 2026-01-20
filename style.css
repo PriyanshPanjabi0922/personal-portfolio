@@ -27,7 +27,7 @@ body{
 }
 
 .sidebar{
-    height: auto;
+    height: 80vh;
     background-color: #2a2a2a;
     padding-top: 10px;
 }
@@ -263,4 +263,15 @@ nav{
 .use-technologies{
     font-size: small;
 }
+
+.project-2 img {
+    width: 280px;        
+    max-width: 100%;     
+    height: auto;
+    border-radius: 6px;  
+    margin: 10px 0;      
+    border: 1px solid #3a3a3a;
+}
+
+
 
