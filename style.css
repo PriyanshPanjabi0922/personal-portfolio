@@ -27,7 +27,7 @@ body{
 }
 
 .sidebar{
-    height: 80vh;
+    height: auto;
     background-color: #2a2a2a;
     padding-top: 10px;
 }
@@ -48,7 +48,6 @@ body{
 .profile img{
     height: 100px;
     background-size: cover;
-
 }
 
 .profile h3{
@@ -98,7 +97,7 @@ body{
    text-align: center;
    margin-left: 10px;
    filter: grayscale(1) invert(0.7) ;
-   transition:filter o.3s ease ;
+   transition:filter 0.3s ease ;
 }
 
 .social img:hover{
@@ -111,7 +110,7 @@ body{
 
 nav a{
     text-decoration: none;
-    transition:color o.3s ease ;
+    transition:color 0.3s ease ;
     padding-right: 20px;
     font-weight: 500;
     color: #a0a0a0;    
@@ -181,7 +180,7 @@ nav{
 .item img{
     height: 48px;
     width: 48px;
-    transition:color o.3s ease ;
+    transition:color 0.3s ease ;
     filter: brightness(0) saturate(100%) invert(74%) sepia(70%) saturate(2088%) hue-rotate(0deg) brightness(104%) contrast(102%) ;
 }
 
@@ -248,5 +247,20 @@ nav{
     padding-left: 20px;
     border-top: 1px solid #3a3a3a;
     padding-top: 10px;
+}
+
+
+.title{
+    font-weight: 800;
+}
+
+.project-description{
+    width:300px;
+    font-size: 0.8rem;
+    color: #a0a0a0;
+}
+
+.use-technologies{
+    font-size: small;
 }
 
